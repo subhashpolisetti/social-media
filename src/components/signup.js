@@ -4,6 +4,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
+	
 	const [formValidated, setFormValidated] = React.useState(false);
 	const [formData, setFormData] = React.useState({
 		emailID: "",
@@ -26,6 +27,7 @@ const SignUp = () => {
 						...formData,
 					}
 				);
+
 			}
 		} else {
 			setFormValidated(true);
@@ -132,7 +134,7 @@ const SignUp = () => {
 								</Form>
 								<div className="row mt-3">
 									<div className="col text-center">
-										Already have an account ? <Link to="/login">Login</Link>
+										Once Click On signup then click on Login Button/Already have an account ? <Link to="/login">Login</Link>
 									</div>
 								</div>
 							</Card.Body>

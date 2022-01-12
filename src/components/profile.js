@@ -51,7 +51,7 @@ const Profile = () => {
 					<>
 						<Card>
 							<Card.Header>
-								<Card.Title>Subhash Profile</Card.Title>
+								<Card.Title>Profile</Card.Title>
 							</Card.Header>
 							<Card.Body>
 								<div className="row">
